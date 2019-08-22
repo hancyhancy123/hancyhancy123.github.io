@@ -6,29 +6,27 @@ categories: machine-learning
 excerpt: Machine Learning Skills
 ---
 
-# Machine Learning Skills
+## Feature Scaling
 
-1. Feature Scaling
+![1566435926054]({{site.baseurl}}/static/image/1566435926054.png)
 
-   ![1566435926054]({{site.baseurl}}/static/image/1566435926054.png)
+- make gradient descent run much faster
 
-   - make gradient descent run much faster
+- converge in a lot fewer iterations
 
-   - converge in a lot fewer iterations
+- no need in normal equation method, but while using gradient descent, it's still important 
 
-   - no need in normal equation method, but while using gradient descent, it's still important 
+  ![1566436039525]({{site.baseurl}}/static/image/1566436039525.png)
 
-     ![1566436039525]({{site.baseurl}}/static/image/1566436039525.png)
+  ![1566436108430]({{site.baseurl}}/static/image/1566436108430.png)
 
-     ![1566436108430]({{site.baseurl}}/static/image/1566436108430.png)
+## Learning Rate α
 
-2. Learning Rate α
+- α is too small: slow convergence.
+- α is too large: may not decrease on every iteration and thus may not converge. 
 
-   - α is too small: slow convergence.
-   - α is too large: may not decrease on every iteration and thus may not converge. 
+![1566437357098]({{site.baseurl}}/static/image/1566437357098.png)
 
-   ![1566437357098]({{site.baseurl}}/static/image/1566437357098.png)
+## Normal equation method
 
-3. Normal equation method
-
-   ![1566443319636]({{site.baseurl}}/static/image/1566443319636.png)
+![1566443319636]({{site.baseurl}}/static/image/1566443319636.png)
