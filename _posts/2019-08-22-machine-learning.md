@@ -2,7 +2,7 @@
 layout: post
 title:  "Machine Learning Skills"
 date:   2019-08-22 11:02:05
-categories: "machine learning"
+categories: machine-learning
 excerpt: Machine Learning Skills
 ---
 
