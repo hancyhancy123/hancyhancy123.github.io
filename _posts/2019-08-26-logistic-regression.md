@@ -8,7 +8,7 @@ excerpt: Logistic Regression
 
 logistic回归（Logistic Regression），不同于线性回归（Regression），是一种分类算法
 ![CodeCogsEqn_1]({{site.baseurl}}/static/image/codeEqn/CodeCogsEqn_1.png)
-y=1 或 y=0
+，y=1 或 y=0
 
 ### sigmod 函数/logistic 函数
 
@@ -45,15 +45,12 @@ y=1 或 y=0
 
 ![CodeCogsEqn_11]({{site.baseurl}}/static/image/codeEqn/CodeCogsEqn_11.png)
 
-goal: ![CodeCogsEqn_12]({{site.baseurl}}/static/image/codeEqn/CodeCogsEqn_12.png)
+*goal:* ![CodeCogsEqn_12]({{site.baseurl}}/static/image/codeEqn/CodeCogsEqn_12.png)
 
-![CodeCogsEqn_13]({{site.baseurl}}/static/image/codeEqn/CodeCogsEqn_13.png)
+*gradient descent:*![CodeCogsEqn_13]({{site.baseurl}}/static/image/codeEqn/CodeCogsEqn_13.png)
 
-   线性回归中 
-   $$
-   h_\theta(x)=\theta^Tx
-   $$，逻辑回归中$h_\theta(x)=\frac{1}{1+e^{-\theta^Tx}}$
-   <!--注：特征缩放有助于加快收敛速度。--> 
+   线性回归中![CodeCogsEqn_14]({{site.baseurl}}/static/image/codeEqn/CodeCogsEqn_14.png)，逻辑回归中![CodeCogsEqn_15]({{site.baseurl}}/static/image/codeEqn/CodeCogsEqn_15.png)。
+   注：特征缩放有助于加快收敛速度。
 
 ### 高级优化
 
