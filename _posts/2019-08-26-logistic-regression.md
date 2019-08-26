@@ -9,13 +9,13 @@ excerpt: Logistic Regression
 logistic回归（Logistic Regression），不同于线性回归（Regression），是一种分类算法
 $0<=h_\theta(x)<=1$	，y=1 或 y=0
 
-###sigmod 函数/logistic 函数
+### sigmod 函数/logistic 函数
 
    $$g(z)=\frac{1}{1+e^{-z}}$$
 
    $$h_\theta(x)=g(\theta^Tx)=\frac{1}{1+e^{-\theta^Tx}}$$
 
-###假设陈述
+### 假设陈述
 
    $$h_\theta(x)=estimated probability that y=1 on input x$$
 
@@ -26,11 +26,11 @@ $0<=h_\theta(x)<=1$	，y=1 或 y=0
    0 & z<0
    \end{matrix}\right.$$
 
-###决策边界
+### 决策边界
 
    st. $z=\theta^Tx = 0$的边界
 
-###代价函数
+### 代价函数
 
    $$J(\theta)=\frac{1}{m}\sum_{i=1}^{m}Cost(h_\theta(x^{(i)}),y^{(i)})$$
 
@@ -49,7 +49,7 @@ $0<=h_\theta(x)<=1$	，y=1 或 y=0
    Cost(h_\theta(x),y)\rightarrow \infty & if & h_\theta(x)\rightarrow 0
    \end{matrix}$$
 
-###简化版代价函数与梯度下降
+### 简化版代价函数与梯度下降
 
    $$Cost(h_\theta(x),y)=-ylog(h_\theta(x))-(1-y)log(1-h_\theta(x))$$
 
@@ -61,14 +61,14 @@ $0<=h_\theta(x)<=1$	，y=1 或 y=0
 
    线性回归中 $h_\theta(x)=\theta^Tx$，逻辑回归中$h_\theta(x)=\frac{1}{1+e^{-\theta^Tx}}$
 
-   注：特征缩放有助于加快收敛速度。 
+   <!--注：特征缩放有助于加快收敛速度。--> 
 
-###高级优化
+### 高级优化
 
    "Conjugate gradient", "BFGS", and "L-BFGS" are more sophisticated, faster ways to
    optimize θ that can be used instead of gradient descent. 
 
-###多元分类：一对多
+### 多元分类：一对多
 
    ![1566437357098]({{site.baseurl}}/static/image/multiregression.png)
 
